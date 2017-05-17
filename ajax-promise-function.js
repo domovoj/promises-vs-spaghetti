@@ -1,4 +1,5 @@
-function ajaxPromise(url) {
+// You can use fetch (returns promise) forgot to say in the presentatiom
+functionfunction ajaxPromise(url) {
   let xhr = new XMLHttpRequest();
 
   // 
