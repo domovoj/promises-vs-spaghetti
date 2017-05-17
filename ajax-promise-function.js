@@ -1,4 +1,6 @@
-// You can use fetch (returns promise) forgot to say in the presentatiom
+/* You can use fetch (returns promise)
+httpshttps://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+forgotorgot to say in the presentatiom */
 functionfunction ajaxPromise(url) {
   let xhr = new XMLHttpRequest();
 
