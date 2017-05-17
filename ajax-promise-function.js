@@ -1,10 +1,10 @@
-/* You can use fetch (returns promise)
-httpshttps://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-forgotorgot to say in the presentatiom */
-functionfunction ajaxPromise(url) {
+/* You can use fetch function (returns promise)
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+forgot to say in the presentation */
+
+function ajaxPromise(url) {
   let xhr = new XMLHttpRequest();
 
-  // 
   xhr.open('GET', url, false);
   xhr.send();
 
