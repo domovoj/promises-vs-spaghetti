@@ -11,6 +11,6 @@ Install http-server globally
 
 ## Open in browser
 
-[spaghetti](http://127.0.0.1:8080/index-spaghetti.html)
+[Spaghetti](http://127.0.0.1:8080/index-spaghetti.html" target="_blank)
 
-[promises](http://127.0.0.1:8080/index.html)
+[Promises](http://127.0.0.1:8080/index.html" target="_blank)
