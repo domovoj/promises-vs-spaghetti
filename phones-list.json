@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": "motorola-xoom-with-wi-fi",
+            "name": "Motorola XOOM\u2122 with Wi-Fi"
+        },
+        {
+            "id": "motorola-atrix-4g",
+            "name": "MOTOROLA ATRIX\u2122 4G"
+        },
+        {
+            "id": "dell-streak-7",
+            "name": "Dell Streak 7"
+        },
+        {
+            "id": "samsung-gem",
+            "name": "Samsung Gem\u2122"
+        },
+        {
+            "id": "dell-venue",
+            "name": "Dell Venue"
+        }
+    ]
+}

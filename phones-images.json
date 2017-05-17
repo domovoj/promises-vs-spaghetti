@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": "motorola-xoom-with-wi-fi",
+            "imageUrl": "img/motorola-xoom-with-wi-fi.jpg"
+        },
+        {
+            "id": "motorola-atrix-4g",
+            "imageUrl": "img/motorola-atrix-4g.jpg"
+        },
+        {
+            "id": "dell-streak-7",
+            "imageUrl": "img/dell-streak-7.jpg"
+        },
+        {
+            "id": "samsung-gem",
+            "imageUrl": "img/samsung-gem.jpg"
+        },
+        {
+            "id": "dell-venue",
+            "imageUrl": "img/dell-venue.jpg"
+        }
+    ]
+}

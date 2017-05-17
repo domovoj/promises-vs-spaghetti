@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "age": 0,
+            "id": "motorola-xoom-with-wi-fi",
+            "snippet": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb)."
+        },
+        {
+            "age": 2,
+            "id": "motorola-atrix-4g",
+            "snippet": "MOTOROLA ATRIX 4G the world's most powerful smartphone."
+        },
+        {
+            "age": 3,
+            "id": "dell-streak-7",
+            "snippet": "Introducing Dell\u2122 Streak 7. Share photos, videos and movies together. It\u2019s small enough to carry around, big enough to gather around."
+        },
+        {
+            "age": 4,
+            "id": "samsung-gem",
+            "snippet": "The Samsung Gem\u2122 brings you everything that you would expect and more from a touch display smart phone \u2013 more apps, more features and a more affordable price."
+        },
+        {
+            "age": 5,
+            "id": "dell-venue",
+            "snippet": "The Dell Venue; Your Personal Express Lane to Everything"
+        }
+    ]
+}

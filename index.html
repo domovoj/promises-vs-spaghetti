@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Promises</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="./ajax-promise-function.js"></script>
+  <script src="./render-html.js"></script>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Snippet</th>
+        <th>Image</th>
+      </tr>
+    </thead>
+    <tbody id="phones"></tbody>
+  </table>
+
+  <script>
+    
+    function getData(cb) {
+      let listPhones;
+
+      return ajaxPromise('phones-list.json')
+        .then(res1 => {
+          listPhones = res1.data;
+
+          return ajaxPromise('phones-details.json');
+        })
+        .then(res2 => {
+          let phonesDetails = res2.data;          
+          
+          listPhones.forEach(phone => Object.assign(phone, phonesDetails.filter(phoneDetail => phoneDetail.id === phone.id)[0]));
+
+          return ajaxPromise('phones-images.json');
+        })
+        .then(res3 => {
+          let phonesImages = res3.data;
+
+          listPhones.forEach(phone => phone.image = phonesImages.filter(phoneImage => phoneImage.id === phone.id)[0].imageUrl);
+
+          return listPhones;
+        });
+    }
+
+    getData()
+      .then(doSomething);
+      .then(renderHtml);
+
+
+  </script>
+
+</body>
+
+</html>
