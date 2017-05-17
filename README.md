@@ -1,6 +1,6 @@
 # Promises-vs-spaghetti
 
-## Intsall
+## Install
 Install http-server globally
 
 `npm install http-server -g`
