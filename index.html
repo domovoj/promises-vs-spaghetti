@@ -32,7 +32,7 @@
         .then(res1 => {
           listPhones = res1.data;
 
-          return ajaxPromise('phones-details.json');
+          return ajaxPromise('phones-detailsd.json');
         })
         .then(res2 => {
           let phonesDetails = res2.data;          
@@ -47,11 +47,13 @@
           listPhones.forEach(phone => phone.image = phonesImages.filter(phoneImage => phoneImage.id === phone.id)[0].imageUrl);
 
           return listPhones;
+        })
+        .catch(err => {
+          throw new Error(err);
         });
     }
 
     getData()
-      .then(doSomething);
       .then(renderHtml);
 
 
